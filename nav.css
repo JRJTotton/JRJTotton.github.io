@@ -1,0 +1,39 @@
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li.right {
+  float: right;
+}
+
+.links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  float: left;
+  position: absolute;
+  top: 45%;
+}
+
+@media screen and (max-width: 800px) {
+  .nav li.right,
+  .nav li {
+    float: none;
+  }
